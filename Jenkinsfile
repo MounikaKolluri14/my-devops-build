@@ -6,7 +6,7 @@ pipeline {
         DOCKERHUB_USERNAME = 'mounika1112'
         DEV_REPO = "${DOCKERHUB_USERNAME}/dev"
         PROD_REPO = "${DOCKERHUB_USERNAME}/prod"
-        DEPLOY_PATH = '/var/lib/jenkins/workspace/react-app-multibranch_dev'   // Local path on Jenkins server..
+        DEPLOY_PATH = '/var/lib/jenkins/workspace/ReactApp-Multibranch-pipeline_dev'   // Local path on Jenkins server..
     }
 
     stages {
